@@ -1,0 +1,80 @@
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  color: black;
+}
+
+.list {
+  background-color: white;
+}
+
+.li-list {
+  color: black;
+  margin: 20px;
+  background-color: white;
+  border-radius: 4px;
+  list-style-type: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-list {
+  background-color: rgb(106, 151, 206);
+  border-radius: 4px;
+  margin: 10px;
+}
+
+/* Modal */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.modal-content {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	width: 400px;
+	max-width: 80%;
+	text-align: center;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content button {
+	margin-top: 15px;
+	padding: 10px 15px;
+	background-color: rgb(116, 235, 229);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.modal-content button:hover {
+  	background-color: rgb(46, 94, 91);
+}
+
+.modal-buttons {
+	justify-content:space-around;
+	display: flex;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.deleteButton {
+	background-color: red !important;
+	color: white;
+}
